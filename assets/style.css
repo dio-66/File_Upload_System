@@ -1,0 +1,152 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .square{
+    background-color: #15bae8;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .square2{
+    background-color: #fdcf01;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .no-account{
+    color: white;
+  }
+
+  .wrapper2{
+    width: 75%;
+    height: 300px;
+    float: right; 
+  }
+
+  .wrapper3{
+    width: 25%;
+    height:666px;
+    float: left;
+    top: 7.8%;
+    left: 0;
+    background-color: lightgray;
+  }
+  .table-settings table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* or any other value you prefer */
+  }
+  
+  .table-settings th,
+  .table-settings td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .table-settings th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .table-settings tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-settings tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table-settings th:first-child,
+  .table-settings td:first-child {
+    width: 25%;
+  }
+  
+  .table-settings th:nth-child(2),
+  .table-settings td:nth-child(2) {
+    width: 25%;
+  }
+  
+  .table-settings th:nth-child(3),
+  .table-settings td:nth-child(3) {
+    width: 25%;
+  }
+  
+  .table-settings th:last-child,
+  .table-settings td:last-child {
+    width: 25%;
+  }
+
+  .page-number{
+    margin-right:15px;
+  }
+
+  .center{  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  /* For screen sizes up to 767px (mobile devices) */
+   
+  @media (max-width: 767px) {
+        
+    .wrapper2,
+    .wrapper3 {
+      width: 100%;
+      height: auto;
+      position: relative;
+      float: none;
+    }
+    
+    .wrapper2:before {
+      display: none;
+    }
+
+
+    .table-settings table {
+        width: 100%;
+      }
+      
+      .table-settings th:first-child,
+      .table-settings td:first-child {
+        width: 25%;
+      }
+      
+      .table-settings th:nth-child(2),
+      .table-settings td:nth-child(2) {
+        width: 25%;
+      }
+      
+      .table-settings th:nth-child(3),
+      .table-settings td:nth-child(3) {
+        display: 25%;
+      }
+      
+      .table-settings th:last-child,
+      .table-settings td:last-child {
+        display: 25%;
+      }
+      
+      .page-number{
+        margin-right:15px;
+      }
+      
+      .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+      }
+      
+  }
+   
