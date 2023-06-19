@@ -1,3 +1,9 @@
+You need XAMPP for this. 
+
+Import the database into phpmyadmin.
+
+
+
 ADMIN
 
 Username : Admin
